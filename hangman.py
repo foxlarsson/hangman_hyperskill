@@ -15,7 +15,19 @@ loss_counter = 0
 attempts = 8
 action = "play"
 
-print("H A N G M A N")
+
+def print_intro():
+    print("===========================".center(120))
+    print("|                         |".center(120))
+    print("|      H_A_N_G_M_A_N      |".center(120))
+    print("|                         |".center(120))
+    print("===========================".center(120))
+    print("")
+    print("- a Python game of Hangman created by Fox Larsson with the help of Hyperskill.org -".center(120))
+    print("")
+
+
+print_intro()
 
 while True:
     action = input('Type "play" to play the game, "exit" to quit: ')
